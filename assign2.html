@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 2: Memory Card Game</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootswatch@5.3/dist/sketchy/bootstrap.min.css">
+    <link rel="stylesheet" href="assign2.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="assign2.js"></script>
+</head>
+
+<body>
+    <div class="main-wrapper d-flex align-items-start">
+        <div id="score-display">
+            <h4>Score</h4>
+            <p id="score">0</p>
+        </div>
+        <div class="container text-center">
+            <h1>FFXIV Art Matching</h1>
+            <p>Match Final Fantasy XIV expansion art cards into pairs. Click on a card to reveal it.</p>
+            <div id="game-board" class="row justify-content-center"></div>
+            <p id="win-msg">You have found all pairs! Current Scoreboard:</p>
+            <br>
+            <button id="restart" class="btn btn-primary mt-3" style="display:none;">Start Game</button>
+        </div>
+        <div id="timer-display">
+            <h4>Timer</h4>
+            <p id="timer">0:00</p>
+        </div>
+    </div>
+</body>
+
+</html>
